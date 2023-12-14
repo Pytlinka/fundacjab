@@ -40,3 +40,67 @@ X-Akamai-Request-ID: 63fbccf
 2023-12-11T12:00:37+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
 2023-12-11T12:15:50+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit InitiateCheckout
 2023-12-11T12:15:50+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2023-12-11T13:13:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-12-11T13:13:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-12-11T13:14:18+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2023-12-11T13:14:18+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2023-12-11T13:14:18+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-12-11T13:14:18+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-12-11T13:23:37+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/business_profile/disconnect?external_data=
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_6576f1df81eb1"}
+ ajax: no
+2023-12-11T13:23:38+00:00 DEBUG Tt4b_Mapi_Class::tbp_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20231211132337284634E2596284E4468D
+Server-Timing: inner; dur=6
+x-tt-trace-host: 0142ebc4451dbf11ab66dfc3f75748770425c42172cf3d1d5f8939f6aac3fc0d8ca8b22db52a78b8f893c79ec3216dda116660d4f07e639ba78655d90126c653a144a6f08ac08af51b5ebe1ecfec41fbafc0d2016aebc12902f6048261c135707e
+x-tt-trace-id: 00-231211132337284634E2596284E4468D-2934CBD0103C622F-00
+Server: TLB
+Expires: Mon, 11 Dec 2023 13:23:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 Dec 2023 13:23:38 GMT
+X-Cache: TCP_MISS from a104-121-76-101.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=hit;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=170
+X-Origin-Response-Time: 170,104.121.76.101
+X-Akamai-Request-ID: d6514ef
+
+{"code":40001,"message":"Permission denied.","request_id":"20231211132337284634E2596284E4468D"}
+
+2023-12-11T13:23:38+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2023-12-11T13:23:39+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202312111323383C013291CD816DE533E7
+Server-Timing: inner; dur=13
+x-tt-trace-host: 0142ebc4451dbf11ab66dfc3f75748770425c42172cf3d1d5f8939f6aac3fc0d8ca8b22db52a78b8f893c79ec3216dda11fcb98db089021b36a918f3301d38a95ae99e3fcfa71960f673dd1cc013f1a6c6930e7d6285ad106edddc50d391c6cbb5
+x-tt-trace-id: 00-2312111323383C013291CD816DE533E7-5F661C8B060CADBD-00
+Server: TLB
+Expires: Mon, 11 Dec 2023 13:23:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 Dec 2023 13:23:39 GMT
+X-Cache: TCP_MISS from a104-121-76-101.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=hit;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=182
+X-Origin-Response-Time: 182,104.121.76.101
+X-Akamai-Request-ID: d651988
+
+{"code":40001,"message":"Permission denied.","request_id":"202312111323383C013291CD816DE533E7"}
+

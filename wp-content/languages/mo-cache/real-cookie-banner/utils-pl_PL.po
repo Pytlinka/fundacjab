@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2023-11-06 10:19+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Polish (formal) <https://translate.devowl.io/projects/devowl-"
+"wp-utils-backend-php/develop/pl@formal/>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1.1\n"
+
+#. translators:
+#: Localization.php:455
+msgid ""
+"Some language packs could not be downloaded for the textdomain %1$s (Error: "
+"%2$s, Endpoint: %3$s)."
+msgstr ""
+"Nie można pobrać niektórych pakietów językowych dla domeny tekstowej %1$s "
+"(Błąd: %2$s, Punkt końcowy: %3$s)."
+
+#: Localization.php:506
+msgid "Retry"
+msgstr "Spróbuj ponownie"
+
+#. translators:
+#: Service.php:117
+msgid ""
+"<strong>An unexpected network error has occurred!</strong> One or more "
+"WordPress plugins tried to call the WordPress REST API, which failed. Most "
+"likely a <strong>security plugin%s</strong>, a web <strong>server "
+"configuration</strong> or active <strong>ad-blocker extension</strong> "
+"installed on your browser disabled the REST API. Please make sure that the "
+"following REST API namespaces are reachable to use your plugin without "
+"problems:"
+msgstr ""
+"<strong>Wystąpił nieoczekiwany błąd sieci!</strong> Jedna lub więcej wtyczek "
+"WordPress próbowało wywołać WordPress REST API, co zakończyło się "
+"niepowodzeniem. Najprawdopodobniej <strong>wtyczka bezpieczeństwa%s</"
+"strong>, <strong>konfiguracja serwera</strong> sieciowego lub aktywne "
+"<strong>rozszerzenie ad-blocker</strong> zainstalowane w przeglądarce "
+"wyłączyło REST API. Należy upewnić się, że następujące przestrzenie nazw "
+"REST API są osiągalne, aby bezproblemowo korzystać z wtyczki:"
+
+#. translators:
+#: Service.php:125
+msgid ""
+"What is the WordPress REST API and how to enable it? %1$sLearn more%2$s."
+msgstr ""
+"Co to jest WordPress REST API i jak go włączyć? %1$sWięcej informacji%2$s."
+
+#: Service.php:128
+msgid "https://devowl.io/knowledge-base/wordpress-rest-api-does-not-respond/"
+msgstr "https://devowl.io/knowledge-base/wordpress-rest-api-does-not-respond/"
+
+#: Service.php:136
+msgid ""
+"In the text box below you will find a technical listing of the last 10 "
+"failed network requests:"
+msgstr ""
+"W poniższym polu tekstowym znajduje się lista techniczna ostatnich 10 "
+"nieudanych żądań sieciowych:"
