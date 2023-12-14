@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooPayments package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooPayments 6.9.1\n"
+"Project-Id-Version: WooPayments 6.9.2\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-payments\n"
-"POT-Creation-Date: 2023-12-07 15:46:03+00:00\n"
+"POT-Creation-Date: 2023-12-14 04:29:30+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: includes/admin/class-wc-payments-admin-settings.php:81
 #: includes/admin/class-wc-payments-admin.php:463
-#: includes/admin/class-wc-payments-admin.php:1042
+#: includes/admin/class-wc-payments-admin.php:1043
 #: dist/settings.js:1
 #: client/settings/express-checkout-settings/index.js:101
 msgid "Settings"
@@ -178,26 +178,26 @@ msgid ""
 "your analytics."
 msgstr ""
 
-#: includes/admin/class-wc-payments-admin.php:1145
+#: includes/admin/class-wc-payments-admin.php:1146
 #. translators: %s: WooPayments
 msgid "Please connect to WordPress.com to start using %s."
 msgstr ""
 
-#: includes/admin/class-wc-payments-admin.php:1165
+#: includes/admin/class-wc-payments-admin.php:1166
 msgid "Paid with"
 msgstr ""
 
-#: includes/admin/class-wc-payments-admin.php:1169
+#: includes/admin/class-wc-payments-admin.php:1170
 #: includes/class-wc-payments-order-success-page.php:67
 msgid "Card ending in"
 msgstr ""
 
-#: includes/admin/class-wc-payments-admin.php:1196
+#: includes/admin/class-wc-payments-admin.php:1197
 #. translators: %s: WooPayments
 msgid "This represents the fee %s collects for the transaction."
 msgstr ""
 
-#: includes/admin/class-wc-payments-admin.php:1201
+#: includes/admin/class-wc-payments-admin.php:1202
 msgid "Transaction Fee:"
 msgstr ""
 
@@ -2371,7 +2371,7 @@ msgstr ""
 msgid "Email address"
 msgstr ""
 
-#: includes/class-wc-payments.php:1749
+#: includes/class-wc-payments.php:1750
 #. translators: %1$s: WooCommerce , %2$s: WooPayments, %3$s: The current
 #. WooCommerce version used by the store
 msgid ""
@@ -2380,7 +2380,7 @@ msgid ""
 "using %3$s). You can do that via the <a1>the plugins page.</a1>"
 msgstr ""
 
-#: includes/class-wc-payments.php:1753
+#: includes/class-wc-payments.php:1754
 #. translators: %1$s: WooCommerce , %2$s: WooPayments, %3$s: The current
 #. WooCommerce version used by the store
 msgid ""
@@ -2389,7 +2389,7 @@ msgid ""
 "%3$s). You can do that via the <a1>the plugins page.</a1>"
 msgstr ""
 
-#: includes/class-wc-payments.php:1757
+#: includes/class-wc-payments.php:1758
 #. translators: %1$s: WooCommerce , %2$s: WooPayments, %3$s: The current
 #. WooCommerce version used by the store
 msgid ""
@@ -4692,49 +4692,56 @@ msgid ""
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/deposit-schedule.tsx:24
-msgid ""
-"Available funds are automatically dispatched {{strong}}every day{{/strong}} "
-"– your next deposit is scheduled for {{strong}}%s{{/strong}}."
+#: client/components/deposits-overview/deposit-notices.tsx:72
+msgid "You have no funds available to deposit. {{whyLink}}Why?{{/whyLink}}"
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/deposit-schedule.tsx:38
+#: client/components/deposits-overview/deposit-schedule.tsx:22
+msgid " – your next deposit is scheduled for {{strong}}%s{{/strong}}"
+msgstr ""
+
+#: dist/index.js:1
+#: client/components/deposits-overview/deposit-schedule.tsx:29
 msgid ""
 "Available funds are automatically dispatched {{strong}}every "
-"%1$s{{/strong}} – your next deposit is scheduled for "
-"{{strong}}%2$s{{/strong}}."
+"day{{/strong}}%s."
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/deposit-schedule.tsx:50
+#: client/components/deposits-overview/deposit-schedule.tsx:43
+msgid ""
+"Available funds are automatically dispatched {{strong}}every "
+"%1$s{{/strong}}%2$s."
+msgstr ""
+
+#: dist/index.js:1
+#: client/components/deposits-overview/deposit-schedule.tsx:55
 msgid ""
 "Available funds are automatically dispatched {{strong}}on the last day of "
-"every month{{/strong}} – your next deposit is scheduled for "
-"{{strong}}%s{{/strong}}."
+"every month{{/strong}}%s."
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/deposit-schedule.tsx:59
+#: client/components/deposits-overview/deposit-schedule.tsx:64
 msgid ""
 "Available funds are automatically dispatched {{strong}}on the %1$s of every "
-"month{{/strong}} – your next deposit is scheduled for "
-"{{strong}}%2$s{{/strong}}."
+"month{{/strong}}%2$s."
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/index.tsx:62
+#: client/components/deposits-overview/index.tsx:65
 #: client/deposits/list/index.tsx:215
 msgid "Deposit history"
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/index.tsx:69
+#: client/components/deposits-overview/index.tsx:72
 msgid "View full deposits history"
 msgstr ""
 
 #: dist/index.js:1
-#: client/components/deposits-overview/index.tsx:75
+#: client/components/deposits-overview/index.tsx:78
 msgid "Change deposit schedule"
 msgstr ""
 
@@ -12966,6 +12973,19 @@ msgstr ""
 #: client/transactions/list/converted-amount.tsx:22
 #. %s is a monetary amount
 msgid "Converted from %s"
+msgstr ""
+
+#: dist/index.js:1
+#: client/transactions/list/deposit.tsx:33
+msgid "Future deposit"
+msgstr ""
+
+#: dist/index.js:1
+#: client/transactions/list/deposit.tsx:35
+msgid ""
+"This transaction will be included in an upcoming automated deposit. The "
+"date of the deposit will be displayed here once it is scheduled. "
+"{{learnMoreLink}}Learn more{{/learnMoreLink}}"
 msgstr ""
 
 #: dist/index.js:1
